@@ -2,6 +2,7 @@ exports.GetHome = function(req, res, next) {
   //const { text } = req.body;
 
   console.log(req.body)
+  console.log("here")
 
   /**let response;
 
