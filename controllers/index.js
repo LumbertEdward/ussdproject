@@ -1,7 +1,9 @@
 exports.GetHome = function(req, res, next) {
-  const { text } = req.body;
+  //const { text } = req.body;
 
-  let response;
+  console.log(req.body)
+
+  /**let response;
 
   if (text == "") {
     response = "CON SELECT AN OPTION \n";
@@ -12,5 +14,5 @@ exports.GetHome = function(req, res, next) {
   setTimeout(() => {
     res.send(response);
     res.end()
-  }, 2000);
+  }, 2000);**/
 }
